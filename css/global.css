@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Red Hat Display', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    line-height: 1.625rem;
+    color: var(--gray-400);
+    text-align: center;
+}
