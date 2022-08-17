@@ -26,3 +26,9 @@
 .presentation-description {
     margin-bottom: 2rem;
 }
+
+.presentation-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
