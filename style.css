@@ -31,4 +31,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
+}
+
+.presentation-buttons a:first-child {
+    background: var(--cyan-400);
+}
+
+.presentation-buttons a:last-child {
+    width: 8.75rem;
+}
+
+.presentation-buttons a span {
+    color: var(--cyan-100);
+}
+
+.id-line {
+    height: 5.25rem;
+    border-left: 1px solid var(--gray-400);
 }
