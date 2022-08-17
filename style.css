@@ -18,3 +18,11 @@
     overflow: hidden;
     margin-bottom: 0.375rem;
 }
+
+.presentation {
+    padding-inline: 1.5rem;
+}
+
+.presentation-description {
+    margin-bottom: 2rem;
+}
