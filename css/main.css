@@ -1,0 +1,21 @@
+.id::before {
+    content: "";
+    display: block;
+    border-left: 1px solid var(--gray-400);
+    height: 5.25rem;
+}
+
+.id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.id span {
+    border: 1px solid var(--gray-400);
+    display: block;
+    width: 3.5rem;
+    padding-block: 1rem;
+    text-align: center;
+    border-radius: 100%;
+}
