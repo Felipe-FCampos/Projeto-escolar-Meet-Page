@@ -19,3 +19,24 @@
     text-align: center;
     border-radius: 100%;
 }
+
+.first-section .id {
+    margin-bottom: 4rem;
+}
+
+.first-section__imgs img {
+    width: 9.375rem;
+    border-radius: 8px;
+}
+
+.first-section__imgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.first-section__description {
+    padding-inline: 1.5rem;
+}
