@@ -20,6 +20,28 @@
     border-radius: 100%;
 }
 
+.second-id span {
+    border: 1px solid var(--gray-400);
+    display: block;
+    width: 3.5rem;
+    padding-block: 1rem;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.second-id::before {
+    content: "";
+    display: block;
+    border-left: 1px solid var(--gray-400);
+    height: 5.25rem;
+}
+
+.second-id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .first-section .id {
     margin-bottom: 4rem;
 }
@@ -43,4 +65,8 @@
 
 .first-section__description h2 { 
     margin-bottom: 2rem;
+}
+
+.second-section {
+    margin-bottom: 4rem;
 }
